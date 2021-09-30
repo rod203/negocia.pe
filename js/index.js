@@ -14,6 +14,7 @@ $(document).ready(function() {
 // document ready  
 });
 
+// CAROUSEL OWL
 (function($) {
 	"use strict";
 	var fullHeight = function() {
@@ -51,3 +52,7 @@ $(document).ready(function() {
 	};
 	carousel();
 })(jQuery);
+
+// AOS ANIMATION
+
+AOS.init();
