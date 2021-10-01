@@ -311,8 +311,7 @@
   padding:0px 20px;
 }
 .container-clients{
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,244,227,1) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 20%, rgba(255,244,227,1) 100%);
   height: 100%;
   justify-content:center;
   display: flex;
@@ -556,4 +555,7 @@
 }
 .foter-links-mod:hover{
   color:#FF5900;
+}
+.social-icon {
+  width:35px;
 }
