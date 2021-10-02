@@ -1008,11 +1008,18 @@
 .function-cart-content{
   width:350px;
 }
-.funciton-card-title{
+.funciton-card-title h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top:30px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .function-card-text{
-  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   margin-left: 20px;
   width:300px;
+  font-size:16px;
+  line-height:20px;
 }
