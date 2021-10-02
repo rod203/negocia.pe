@@ -988,8 +988,9 @@
 /* FUNCIONES CARDS */
 
 .cards-container{
-  background-color:#fff4e3;
+  background-image:linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #FFF4E3 100%),url("../img/bg-negocia.png");
   display:flex;
+  background-size: cover;
   justify-content:center;
   padding-bottom: 50px;
 }
