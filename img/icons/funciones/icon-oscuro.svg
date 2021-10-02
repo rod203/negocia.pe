@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="80" height="80"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-1.905" y1="64.0169" x2="74.895" y2="6.417" gradientTransform="matrix(1 0 0 -1 0 79.8898)">
+			<stop  offset="0" style="stop-color:#FF5900"/>
+			<stop  offset="1" style="stop-color:#FE8600"/>
+			<stop  offset="1" style="stop-color:#FE8600"/>
+		</linearGradient>
+		<path class="st1" d="M30,0c-7.3,0-14.1,2-20,5.4C22,12.3,30,25.2,30,40s-8,27.7-20,34.6C15.9,78,22.7,80,30,80
+			c22.1,0,40-17.9,40-40S52.1,0,30,0z"/>
+	</g>
+</g>
+</svg>
