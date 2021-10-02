@@ -909,6 +909,7 @@
   padding-top: 100px;
   background-image:linear-gradient(to top, rgb(255, 255, 255) 50%, #fff4e3 100%);
   background-size:contain;
+  padding-bottom:50px;
 }
 
 .esperar-txt{
@@ -951,8 +952,8 @@
   color:#FF5900;
 }
 .btn-solicitud-funciones {
-  margin-top:50px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 .btn-solicitar {
   background: rgb(255,89,0);
