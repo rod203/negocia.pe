@@ -907,9 +907,9 @@
 
 .esperar-container{
   padding-top: 100px;
-  background-image:linear-gradient(to top, rgb(255, 255, 255) 50%, #fff4e3 100%);
+  background: linear-gradient(0deg, rgba(255,244,227,1) 0%, rgba(255,255,255,1) 20%,rgba(255,255,255,1) 80%, rgba(255,244,227,1) 100%);
   background-size:contain;
-  padding-bottom:50px;
+  padding-bottom:80px;
 }
 
 .esperar-txt{
@@ -988,19 +988,19 @@
 /* FUNCIONES CARDS */
 
 .cards-container{
-  background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, #fff4e3 100%);
+  background-color:#fff4e3;
   display:flex;
   justify-content:center;
   padding-bottom: 50px;
 }
 .cards-container-edit{
-  width: 850px;
+  width: 900px;
 }
 .funcion-card {
-  display:flex; 
+  display:flex;
   background-color:white;
   border-radius: 25px;
-  margin: 20px;
+  margin: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
 }
 .img-card-mod{
@@ -1008,11 +1008,12 @@
 }
 .function-cart-content{
   width:350px;
+  display:flex;
+  align-items:center;
 }
 .funciton-card-title h5{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  margin-top:30px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -1023,4 +1024,29 @@
   width:300px;
   font-size:16px;
   line-height:20px;
+}
+@media all and (max-width: 576px) {
+  .img-card-mod{
+    height:200px;
+  }
+  .function-cart-content{
+    width:250px;
+    display:flex;
+    align-items:center;
+  }
+  .funciton-card-title h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .function-card-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+    width:200px;
+    font-size:14px;
+    line-height:20px;
+  }
 }
