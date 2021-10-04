@@ -15,44 +15,86 @@ $(document).ready(function() {
 });
 
 // CAROUSEL OWL
-(function($) {
-	"use strict";
-	var fullHeight = function() {
-		$('.js-fullheight').css('height', $(window).height());
-		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
-		});
-	};
-	fullHeight();
-	var carousel = function() {
+// (function($) {
+// 	"use strict";
+// 	var fullHeight = function() {
+// 		$('.js-fullheight').css('height', $(window).height());
+// 		$(window).resize(function(){
+// 			$('.js-fullheight').css('height', $(window).height());
+// 		});
+// 	};
+// 	fullHeight();
+// 	var carousel = function() {
+// 		$('.featured-carousel').owlCarousel({
+// 	    loop:true,
+// 	    autoplay: true,
+// 	    margin:30,
+// 	    animateOut: 'fadeOut',
+// 	    animateIn: 'fadeIn',
+// 	    nav:false,
+// 	    dots: false,
+// 	    autoplayHoverPause: false,
+//       items: 1,
+//       autoHeight:true,
+// 	    navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+// 	    responsive:{
+// 	      0:{
+// 	        items:1
+// 	      },
+// 	      600:{
+// 	        items:2
+// 	      },
+// 	      1000:{
+// 	        items:3
+// 	      }
+// 	    }
+// 		});
+// 	};
+// 	carousel();
+// })(jQuery);
+
+// PLANES CAROUSEL
+
+$(document).ready(function(){
 		$('.featured-carousel').owlCarousel({
-	    loop:true,
-	    autoplay: true,
-	    margin:30,
-	    animateOut: 'fadeOut',
-	    animateIn: 'fadeIn',
-	    nav:false,
-	    dots: false,
-	    autoplayHoverPause: false,
-      items: 1,
-      autoHeight:true,
-	    navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
-	    responsive:{
-	      0:{
-	        items:1
-	      },
-	      600:{
-	        items:2
-	      },
-	      1000:{
-	        items:3
-	      }
-	    }
+			loop:true,
+			autoplay: true,
+			margin:30,
+			animateOut: 'fadeOut',
+			animateIn: 'fadeIn',
+			nav:false,
+			dots: false,
+			autoplayHoverPause: false,
+			items: 1,
+			autoHeight:true,
+			navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
+			responsive:{
+				0:{
+						items:1
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:3
+					}
+				}
 		});
-	};
-	carousel();
-})(jQuery);
-
-// AOS ANIMATION
-
-AOS.init();
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:40,
+    nav:false,
+		autoWidth:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});

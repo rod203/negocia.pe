@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negocia.pe</title>
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!--  style css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar-pages navbar-expand-lg nav-container fixed-top justify-content-around pl-lg-4 pr-lg-4">
+      <div class="d-flex">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./img/burger-menu.png" alt="menu">
+        </button>
+        <a class="logo-nav" href="#"><img src="./img/logo.png" alt="logo" class="logo-nav"></a>
+      </div>
+      <button class="btn btn-login-small-mod" type="submit">Iniciar session</button>
+      <div class="collapse navbar-collapse nav-link-div" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-center navbar-pages-link">
+          <li class="nav-item">
+            <a class="nav-link nav-link-txt navbar-pages-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-txt navbar-pages-link" href="funciones.html">Funciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-txt navbar-pages-link  nav-link-active" href="planes.html">Planes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-txt navbar-pages-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-txt navbar-pages-link" href="nosotros.html">Sobre nosotros</a>
+          </li>
+        </ul>
+      </div>
+        <button class="btn-login-large navbar-pages-link" type="submit">Iniciar session</button>
+    </nav>
+  </header>
+  <!-- // NAVBAR -->
+  <!-- whatsapp api -->
+  <a href="https://api.whatsapp.com/send?phone=5492234261184&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20negocia.pe." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  <!-- // whatsapp api -->
+  <div class="container-fluid planes-container">
+    <div class="row justify-content-center">
+      <div class="planes-title">
+        <h2 class="planes-title-mod">Elige el plan que más se adecúe a tu negocio</h2>
+      </div>
+      <div class="container planes-container-cards">
+        <div class="switch-planes">
+
+        </div>
+        <div class="owl-carousel item-planes">
+          <!-- PLAN CONTAINER -->
+          <div class="item card-plan">
+            <div class="row planes-head">
+              <div class="plan-titulo">
+                <h4 class="plan-titulo-mod">Plan Mype</h4>
+              </div>
+              <div class="precio-plan" id="plan-mype">
+                <p class="precio-plan-mod">S/<span>97</span>mes</p>
+              </div>
+              <div class="precio-plan-descuento" id="plan-mype-descuento">
+                <p class="precio-plan-mod">S/<span>989</span>año</p>
+                <p class="descuento-plan" id="plan-mype-descuento">ANTES <span>S/1164</span></p>
+              </div>
+              <div class="iva-texto">
+                <p class="iva-texto-mod">Incluye IGV</p>
+              </div>
+            </div>
+            <div class="row beneficios-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-ventas.svg" alt="ventas" class="icon-item-beneficios"><p>Máximo de <b>ventas mensuales: S/30,000 </b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-sucursal.svg" alt="ventas" class="icon-item-beneficios"><p><b>1</b> Sucursal <span>(Agrega una sucursal más por S/67)</span></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-soporte.svg" alt="ventas" class="icon-item-beneficios"><p><b>Atención</b> al cliente <b>ilimitada</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-capacitacion.svg" alt="ventas" class="icon-item-beneficios"><p><b>Capacitación</b> constante</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-moneda.svg" alt="ventas" class="icon-item-beneficios"><p>Moneda: Dolares/Soles</p></li>
+              </ul>
+            </div>
+            <div class="row checks-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>2 usuarios</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Facturas y boletas electrónicas ilimitadas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de cotizaciones</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Registros de compras y gastos</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes de fácil lectura</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes para contadores</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Punto de venta (POS)</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de comprobantes por WhatsApp</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Control de inventario</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Lista de precios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de compra y servicios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de venta</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Guías de remisión electrónicas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Módulo de producción</p></li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-center comprar-plan-container">
+              <button class="comprar-plan" id="plan-mype">Quiere este plan</button>
+            </div>
+          </div>
+          <!-- // PLAN CONTAINER -->
+          <!-- PLAN CONTAINER -->
+          <div class="item card-plan">
+            <div class="row planes-head">
+              <div class="plan-titulo">
+                <h4 class="plan-titulo-mod">Plan Crece</h4>
+              </div>
+              <div class="precio-plan" id="plan-mype">
+                <p class="precio-plan-mod">S/<span>157</span>mes</p>
+              </div>
+              <div class="precio-plan-descuento" id="plan-mype-descuento">
+                <p class="precio-plan-mod">S/<span>1601</span>año</p>
+                <p class="descuento-plan" id="plan-mype-descuento">ANTES <span>S/1884</span></p>
+              </div>
+              <div class="iva-texto">
+                <p class="iva-texto-mod">Incluye IGV</p>
+              </div>
+            </div>
+            <div class="row beneficios-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-ventas.svg" alt="ventas" class="icon-item-beneficios"><p>Máximo de <b>ventas mensuales: S/30,000 </b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-sucursal.svg" alt="ventas" class="icon-item-beneficios"><p><b>1</b> Sucursal <span>(Agrega una sucursal más por S/67)</span></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-soporte.svg" alt="ventas" class="icon-item-beneficios"><p><b>Atención</b> al cliente <b>ilimitada</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-capacitacion.svg" alt="ventas" class="icon-item-beneficios"><p><b>Capacitación</b> constante</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-moneda.svg" alt="ventas" class="icon-item-beneficios"><p>Moneda: Dolares/Soles</p></li>
+              </ul>
+            </div>
+            <div class="row checks-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>2 usuarios</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Facturas y boletas electrónicas ilimitadas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de cotizaciones</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Registros de compras y gastos</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes de fácil lectura</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes para contadores</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Punto de venta (POS)</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de comprobantes por WhatsApp</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Control de inventario</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Lista de precios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de compra y servicios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de venta</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Guías de remisión electrónicas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Módulo de producción</p></li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-center comprar-plan-container" >
+              <button class="comprar-plan" id="plan-mype">Quiere este plan</button>
+            </div>
+          </div>
+          <!-- // PLAN CONTAINER -->
+          <!-- PLAN CONTAINER -->
+          <div class="item card-plan">
+            <div class="destacado">
+              <img src="./img/icons/destacado.png" alt="">
+            </div>
+            <div class="row planes-head">
+              <div class="plan-titulo">
+                <h4 class="plan-titulo-mod">Plan Vuela</h4>
+              </div>
+              <div class="precio-plan" id="plan-mype">
+                <p class="precio-plan-mod">S/<span>187</span>mes</p>
+              </div>
+              <div class="precio-plan-descuento" id="plan-mype-descuento">
+                <p class="precio-plan-mod">S/<span>2009</span>año</p>
+                <p class="descuento-plan" id="plan-mype-descuento">ANTES <span>S/2364</span></p>
+              </div>
+              <div class="iva-texto">
+                <p class="iva-texto-mod">Incluye IGV</p>
+              </div>
+            </div>
+            <div class="row beneficios-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-ventas.svg" alt="ventas" class="icon-item-beneficios"><p>Máximo de <b>ventas mensuales: S/30,000 </b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-sucursal.svg" alt="ventas" class="icon-item-beneficios"><p><b>1</b> Sucursal <span>(Agrega una sucursal más por S/67)</span></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-soporte.svg" alt="ventas" class="icon-item-beneficios"><p><b>Atención</b> al cliente <b>ilimitada</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-capacitacion.svg" alt="ventas" class="icon-item-beneficios"><p><b>Capacitación</b> constante</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-moneda.svg" alt="ventas" class="icon-item-beneficios"><p>Moneda: Dolares/Soles</p></li>
+              </ul>
+            </div>
+            <div class="row checks-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>2 usuarios</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Facturas y boletas electrónicas ilimitadas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de cotizaciones</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Registros de compras y gastos</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes de fácil lectura</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes para contadores</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Punto de venta (POS)</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de comprobantes por WhatsApp</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Control de inventario</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Lista de precios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de compra y servicios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de venta</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Guías de remisión electrónicas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Módulo de producción</p></li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-center comprar-plan-container" >
+              <button class="comprar-plan" id="plan-mype">Quiere este plan</button>
+            </div>
+          </div>
+          <!-- // PLAN CONTAINER -->
+          <!-- PLAN CONTAINER -->
+          <div class="item card-plan">
+            <div class="row planes-head">
+              <div class="plan-titulo">
+                <h4 class="plan-titulo-mod">Plan Vuela PRO</h4>
+              </div>
+              <div class="precio-plan" id="plan-mype">
+                <p class="precio-plan-mod">S/<span>287</span>mes</p>
+              </div>
+              <div class="precio-plan-descuento" id="plan-mype-descuento">
+                <p class="precio-plan-mod">S/<span>2723</span>año</p>
+                <p class="descuento-plan" id="plan-mype-descuento">ANTES <span>S/3204</span></p>
+              </div>
+              <div class="iva-texto">
+                <p class="iva-texto-mod">Incluye IGV</p>
+              </div>
+            </div>
+            <div class="row beneficios-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-ventas.svg" alt="ventas" class="icon-item-beneficios"><p>Máximo de <b>ventas mensuales: S/30,000 </b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-sucursal.svg" alt="ventas" class="icon-item-beneficios"><p><b>1</b> Sucursal <span>(Agrega una sucursal más por S/67)</span></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-soporte.svg" alt="ventas" class="icon-item-beneficios"><p><b>Atención</b> al cliente <b>ilimitada</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-capacitacion.svg" alt="ventas" class="icon-item-beneficios"><p><b>Capacitación</b> constante</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-moneda.svg" alt="ventas" class="icon-item-beneficios"><p>Moneda: Dolares/Soles</p></li>
+              </ul>
+            </div>
+            <div class="row checks-list">
+              <ul>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>2 usuarios</b></p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Facturas y boletas electrónicas ilimitadas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de cotizaciones</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Registros de compras y gastos</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes de fácil lectura</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes para contadores</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Punto de venta (POS)</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de comprobantes por WhatsApp</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Control de inventario</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Lista de precios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de compra y servicios</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de venta</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Guías de remisión electrónicas</p></li>
+                <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Módulo de producción</p></li>
+              </ul>
+            </div>
+            <div class="d-flex justify-content-center comprar-plan-container" >
+              <button class="comprar-plan" id="plan-mype">Quiere este plan</button>
+            </div>
+          </div>
+          <!-- // PLAN CONTAINER -->
+                    <!-- PLAN CONTAINER -->
+                    <div class="item card-plan">
+                      <div class="row planes-head">
+                        <div class="plan-titulo">
+                          <h4 class="plan-titulo-mod">Plan Incuba</h4>
+                        </div>
+                        <div class="precio-plan" id="plan-mype">
+                          <p class="precio-plan-mod">S/<span>67</span>mes</p>
+                        </div>
+                        <div class="precio-plan-descuento" id="plan-mype-descuento">
+                          <p class="precio-plan-mod">S/<span>683</span>año</p>
+                          <p class="descuento-plan" id="plan-mype-descuento">ANTES <span>S/804</span></p>
+                        </div>
+                        <div class="iva-texto">
+                          <p class="iva-texto-mod">Incluye IGV</p>
+                        </div>
+                      </div>
+                      <div class="row beneficios-list">
+                        <ul>
+                          <li class="item-beneficios"><img src="./img/icons/icon-ventas.svg" alt="ventas" class="icon-item-beneficios"><p>Máximo de <b>ventas mensuales: S/30,000 </b></p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-sucursal.svg" alt="ventas" class="icon-item-beneficios"><p><b>1</b> Sucursal <span>(Agrega una sucursal más por S/67)</span></p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-soporte.svg" alt="ventas" class="icon-item-beneficios"><p><b>Atención</b> al cliente <b>ilimitada</b></p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-capacitacion.svg" alt="ventas" class="icon-item-beneficios"><p><b>Capacitación</b> constante</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-moneda.svg" alt="ventas" class="icon-item-beneficios"><p>Moneda: Dolares/Soles</p></li>
+                        </ul>
+                      </div>
+                      <div class="row checks-list">
+                        <ul>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>2 usuarios</b></p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Facturas y boletas electrónicas ilimitadas</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de cotizaciones</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Registros de compras y gastos</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes de fácil lectura</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Reportes para contadores</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Punto de venta (POS)</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-check.svg" alt="ventas" class="icon-item-beneficios"><p>Envío de comprobantes por WhatsApp</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Control de inventario</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Lista de precios</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de compra y servicios</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Órdenes de venta</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Guías de remisión electrónicas</p></li>
+                          <li class="item-beneficios"><img src="./img/icons/icon-x.svg" alt="ventas" class="icon-item-beneficios"><p>Módulo de producción</p></li>
+                        </ul>
+                      </div>
+                      <div class="d-flex justify-content-center comprar-plan-container" >
+                        <button class="comprar-plan" id="plan-mype">Quiere este plan</button>
+                      </div>
+                    </div>
+                    <!-- // PLAN CONTAINER -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SOLICITUD DOS -->
+  <div class="container-fluid demostracion-planes">
+    <div class="container d-flex flex-row flex-wrap justify-content-center align-items-center">
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-seguridad.svg" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p>Datos<span style="color: #FF5900;"><br>respaldados</span>  <br> en la nube.</p>
+          </div>
+        </div>
+      </div>
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-tutoriales.png" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p>Información totalmente<br><span style="color: #FF5900;">segura y confidencial.</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-interfaz.svg" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p>Diseño <span style="color: #FF5900;">simple<br>e intuitivo.</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-actualizaciones.svg" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p>Actualizaciones <br><span style="color: #FF5900;">automaticas y sin costo</span><br>adicional.</p>
+          </div>
+        </div>
+      </div>
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-decisiones.svg" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p>Toma<br><span style="color: #FF5900;">mejores decisiones.</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="extra-containter pt-5 pb-5">
+        <div class="icon-extra-data d-flex">
+          <img src="./img/icons/icon-atencion24.png" alt="data" class="icon-extra">
+          <div class="extra-data-txt">
+            <p><span style="color: #FF5900;">Atencion</span> <br> a travez de whatsapp.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center btn-solicitud2 mb-5 p-4" >
+      <button class="call-in-action3">Solicitar demostracion</button>
+    </div>
+  </div>
+  <!-- // SOLICITUD DOS -->
+  <!-- FOOTER -->
+  <footer class="bg-footer">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+          <p class="footer-direction-txt">Jr. Las Amapolas Mz. B1 Lt. 18 <br> Urb. San Ramón Piura, Perú.</p>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="instragram"><img src="./img/icons/icon-instagram.png" alt="instagram" class="social-icon"></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><img src="./img/icons/icon-facebook.png" alt="facebook" class="social-icon"></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="lindekin"><img src="./img/icons/icon-linkedin.png" alt="linkedin" class="social-icon"></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="footer-links-txt">Links</h6>
+          <ul class="list-unstyled pt-3 mb-0">
+            <li class="foter-links-li"><a href="#" class="foter-links-mod">Funciones</a></li>
+            <li class="foter-links-li"><a href="#" class="foter-links-mod">Planes</a></li>
+            <li class="foter-links-li"><a href="#" class="foter-links-mod">Contacto</a></li>
+            <li class="foter-links-li"><a href="#" class="foter-links-mod">Sobre nosotros</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"></div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="footer-links-txt">Contactanos</h6>
+          <p class="text-muted mb-4 pt-3">Si quieres saber mas o quieres una atencion mas personalizada dejanos tu email y te contacteremos.</p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Direccion de Email" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyrights -->
+    <div class="bg-light py-4">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2">© 2021 Negocia.pe Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- // FOOTER -->
+  <!-- jQuery and Bootstrap Bundle -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <!-- aos -->
+
+  <!-- js -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

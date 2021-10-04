@@ -1051,3 +1051,225 @@
     line-height:20px;
   }
 }
+
+/* PLANES PAGE */
+
+.planes-container{
+  height: 100%;
+  padding-top: 12%;
+  background-color:#FFF4E3 ;
+  background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.789) 20%, #fff4e300 50% ,rgba(255, 255, 255, 0.789) 100%), url("../img/bg-items.png");
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.planes-title{
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 100px;
+}
+.planes-title-mod {
+  display:inline;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  color:black;
+  line-height: 60px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.005em;
+  padding:0px 20px;
+}
+.card-plan{
+  background:rgba(255, 255, 255, 0.85);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.226);
+  padding: 30px;
+  width: 400px;
+  height: 100%;
+  border: 1px solid  #ff59004f;
+  border-radius: 40px;
+  margin-bottom: 5px;
+}
+.destacado{
+  position:absolute;
+  margin:-30px;
+}
+.destacado img{
+  width:150px;
+  height:150px;
+}
+.item-planes{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.planes-head{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.precio-plan{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.precio-plan-descuento{
+  display:none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.plan-titulo-mod{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight:500;
+}
+.precio-plan-mod {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight:800;
+  padding:0px;
+  margin:0px;
+}
+.precio-plan-mod span{
+  color: #FF5900;
+  font-size: 60px;
+  padding:0px;
+  margin:0px;
+}
+.descuento-plan{
+  color: #FF5900;
+  font-size: 16px;
+  font-weight: 100;
+  padding:0px;
+  letter-spacing: 1px;
+  margin-top: -10px;
+}
+.descuento-plan span{
+  text-decoration: line-through ;
+}
+.iva-texto-mod{
+  color:rgb(128, 128, 128);
+  letter-spacing: 0.3px;
+}
+.beneficios-list{
+  border-top: 1px solid #FF5900;
+  margin: 0px;
+  padding-top: 15px;
+}
+.beneficios-list ul{
+  margin: 0px;
+  padding: 0px;
+}
+.item-beneficios{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.item-beneficios p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight:300;
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
+}
+.item-beneficios span {
+  font-size:13px;
+}
+.icon-item-beneficios{
+  width: 20px!important;
+  height: 20px;
+}
+.checks-list{
+  border-top: 1px solid #FF5900;
+  margin: 0px;
+  padding-top: 15px;
+}
+.checks-list ul{
+  margin: 0px;
+  padding: 0px;
+}
+.comprar-plan {
+  background: rgb(255,89,0);
+  background: linear-gradient(90deg, #FF5900 0%, #FE8700 100%);
+  box-shadow: inset 0px -4px 7px rgba(0, 0, 0, 0.24), inset 0px 5px 10px rgba(255, 255, 255, 0.22);
+  margin-left: 5px;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+  position:absolute;
+}
+.comprar-plan:hover{
+  position:absolute;
+  background: rgb(255,89,0);
+  background: linear-gradient(90deg, #FF5900 0%, #FE8700 100%);
+  box-shadow: inset 0px -4px 7px rgba(0, 0, 0, 0.364), inset 0px 5px 10px rgba(0, 0, 0, 0.22);
+  font-size: 22px;
+  color: black;
+}
+.comprar-plan-container {
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+.demostracion-planes{
+  padding-top: 0px;
+  background: linear-gradient(to bottom,rgba(255,255,255,1) 50%, rgb(255, 244, 227) 100%);
+  background-size:cover;
+  padding-bottom:40px;
+}
+.call-in-action3 {
+  background: rgb(255,89,0);
+  background: linear-gradient(90deg, #FF5900 0%, #FE8700 100%);
+  box-shadow: inset 0px -4px 7px rgba(0, 0, 0, 0.24), inset 0px 5px 10px rgba(255, 255, 255, 0.22);
+  margin-left: 5px;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.call-in-action3:hover{
+  background: rgb(255,89,0);
+  background: linear-gradient(90deg, #FF5900 0%, #FE8700 100%);
+  box-shadow: inset 0px -4px 7px rgba(0, 0, 0, 0.364), inset 0px 5px 10px rgba(0, 0, 0, 0.22);
+  margin-left: 5px;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 45px;
+  size: 300px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+}
+@media all and (max-width: 768px) {
+  .planes-container{
+    padding-top:30%;
+  }
+}
+@media all and (max-width: 576px) {
+  .card-plan{
+    background:white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.111);
+    padding: 30px;
+    width: 320px;
+    height: 1040px;
+    border-radius: 40px;
+    margin-bottom: 5px;
+  }
+  .item-beneficios p{
+    font-size:14px;
+  }
+}
