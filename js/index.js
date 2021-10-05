@@ -11,47 +11,26 @@ $(document).ready(function() {
         $(".navbar").removeClass("nav-bg-scroll");
       }
   }); //missing );
+	// SWITCH DE PRECIOS DE PLANES.
+	$("#anual-switch").attr("style","color:black;");
+	$('#switch-label').change(function() {
+		if ($(this).prop('checked') == false){
+			$(".precio-plan").attr("style","display:flex!important");
+			$(".precio-plan-descuento").attr("style","display:none!important");
+			$("#mensual-switch").attr("style",";color: #FF5900;");
+			$("#anual-switch").attr("style","color:black;");
+			console.log("visible");
+		} else {
+			console.log("no-visible");
+			$("#anual-switch").attr("style",";color: #FF5900;");
+			$("#mensual-switch").attr("style","color:black;");
+			$(".precio-plan").attr("style","display:none!important");
+			$(".precio-plan-descuento").attr("style","display:flex!important");
+			}
+		}
+	)
 // document ready  
 });
-
-// CAROUSEL OWL
-// (function($) {
-// 	"use strict";
-// 	var fullHeight = function() {
-// 		$('.js-fullheight').css('height', $(window).height());
-// 		$(window).resize(function(){
-// 			$('.js-fullheight').css('height', $(window).height());
-// 		});
-// 	};
-// 	fullHeight();
-// 	var carousel = function() {
-// 		$('.featured-carousel').owlCarousel({
-// 	    loop:true,
-// 	    autoplay: true,
-// 	    margin:30,
-// 	    animateOut: 'fadeOut',
-// 	    animateIn: 'fadeIn',
-// 	    nav:false,
-// 	    dots: false,
-// 	    autoplayHoverPause: false,
-//       items: 1,
-//       autoHeight:true,
-// 	    navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
-// 	    responsive:{
-// 	      0:{
-// 	        items:1
-// 	      },
-// 	      600:{
-// 	        items:2
-// 	      },
-// 	      1000:{
-// 	        items:3
-// 	      }
-// 	    }
-// 		});
-// 	};
-// 	carousel();
-// })(jQuery);
 
 // PLANES CAROUSEL
 
@@ -82,14 +61,15 @@ $(document).ready(function(){
 		});
 	$('.owl-carousel').owlCarousel({
     loop:true,
-    margin:40,
+	  margin:150,
     nav:false,
+		center:true,
 		autoWidth:true,
     responsive:{
         0:{
             items:1
         },
-        600:{
+        800:{
             items:3
         },
         1000:{
