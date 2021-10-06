@@ -39,14 +39,11 @@ $(document).ready(function(){
 			loop:true,
 			autoplay: true,
 			margin:30,
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
 			nav:false,
 			dots: false,
 			autoplayHoverPause: false,
 			items: 1,
 			autoHeight:true,
-			navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"],
 			responsive:{
 				0:{
 						items:1
@@ -61,7 +58,7 @@ $(document).ready(function(){
 		});
 	$('.owl-carousel').owlCarousel({
     loop:true,
-	  margin:150,
+		margin:150,
     nav:false,
 		center:true,
 		autoWidth:true,
@@ -76,5 +73,23 @@ $(document).ready(function(){
             items:5
         }
     }
-})
+	})
+	$('.clientes-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+		center:true,
+		autoplay: true,
+		autoWidth:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:10
+        }
+    }
+	})
 });
