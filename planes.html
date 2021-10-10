@@ -55,7 +55,7 @@
     <i class="fa fa-whatsapp my-float"></i>
   </a>
   <!-- // whatsapp api -->
-  <div class="container-fluid planes-container">
+  <div class="container-fluid planes-container overflow-hidden">
     <div class="row justify-content-center">
       <div class="planes-title">
         <h2 class="planes-title-mod">Elige el plan que más se adecúe a tu negocio</h2>
@@ -71,6 +71,9 @@
             <p class="switch-planes-txt" id="anual-switch">ANUAL</p>
           </div>
           <p class="descuento-switch-txt"><b>15%</b> de <b>descuento</b> en <b>Planes Anuales.</b></p>
+        </div>
+        <div class="dots-nav-planes">
+          
         </div>
         <div class="owl-carousel item-planes">
           <!-- PLAN CONTAINER -->
@@ -378,7 +381,63 @@
       </div>
     </div>
     <div class="d-flex justify-content-center btn-solicitud2 mb-5 p-4" >
-      <button class="call-in-action3">Solicitar demostracion</button>
+      <button data-toggle="modal" data-target="#modal-solicitud" class="call-in-action3">Solicitar demostracion</button>
+        <!-- MODAL SOLICITUD -->
+        <div class="modal fade" id="modal-solicitud" tabindex="-1" aria-labelledby="modal-solicitud" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="container">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="modal-solicitud-title d-flex align-items-center justify-content-center flex-column">
+                    <h4 class="m-3">Trabajemos juntos</h4>
+                    <p>¡Completa el formulario y empieza tu demostración gratis!</p>
+                  </div>
+                  <form class="d-flex flex-column align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <input type="text" class="form-control" placeholder="Nombre *" autofocus="autofocus">
+                        <input type="text" class="form-control" placeholder="Apellido *">
+                        <input type="text" class="form-control" placeholder="Email *">
+                        <input type="text" class="form-control" placeholder="Celular *">
+                        <input type="password" class="form-control" placeholder="Contraseña *">
+                        <input type="text" class="form-control" placeholder="Nombre de la empresa">
+                        <select name="rubro" id="rubro" class="form-control" placeholder="Seleccione rubro">
+                          <option value="" selected disabled>Seleccione rubro</option>
+                          <option value="">delivery (comidas)</option>
+                          <option value="">Agroindrustria</option>
+                          <option value="">Servicios Empresariales</option>
+                          <option value="">Exportacion</option>
+                          <option value="">Agencia de viajes</option>
+                          <option value="">Comercial</option>
+                          <option value="">Bodega</option>
+                          <option value="">MiniMarket</option>
+                          <option value="">Bar - Restaurante</option>
+                          <option value="">Hoteleria</option>
+                          <option value="">Educacion</option>
+                          <option value="">ONG - Fundacion</option>
+                          <option value="">Construccion</option>
+                          <option value="">Ferreteria</option>
+                        </select>
+                        <input type="text" class="form-control" placeholder="RUC">
+                    </div>
+                    <div class="form-check m-3">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Acepto los términos, condiciones y políticas de tratamiento de datos.
+                      </label>
+                    </div>
+                    <div class="d-flex justify-content-center m-3">
+                      <button type="submit" class="btn-submit-solicitud">Solicitar demostracion</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // MODAL SOLICITUD -->
     </div>
   </div>
   <!-- // SOLICITUD DOS -->
