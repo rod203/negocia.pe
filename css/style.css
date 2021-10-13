@@ -329,7 +329,6 @@
   letter-spacing: -0.005em;
   margin-bottom: 50px;
   margin-top: 50px;
-  padding:0px 20px;
 }
 .container-clients{
   background: linear-gradient(0deg, rgba(255,255,255,1) 20%, rgba(255,244,227,1) 100%);
@@ -423,6 +422,7 @@
 /* SOLICITUD DOWN */
 .solucitud-down{
   height: 100%;
+  padding-top:20px;
   background-image:linear-gradient(to bottom, rgb(255, 255, 255) 0%, #fff4e300 50%);
   background-size:contain;
 }
