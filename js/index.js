@@ -239,3 +239,7 @@ $(document).ready(function(){
     }
 	})
 });
+
+// AOS ANIMATION INICIALIZATION
+
+AOS.init();

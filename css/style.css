@@ -96,6 +96,11 @@
 .nav-bg-scroll .btn-login-large:hover{
   color:#FF5900;
 }
+@media all and (max-width:567px) {
+  .logo-nav {
+    width: 120px!important;;
+  }
+}
 @media all and (max-width: 992px) {
   .navbar-collapse{
     background-color: #FFF4E3 ;
@@ -1615,4 +1620,71 @@
   .accordion{
     width: 300px;
   }
+}
+
+
+/* LOGIN PAGE */
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  padding-top:200px;
+  padding-bottom:150px;
+  background-image: linear-gradient(to bottom,#ffffff 0%, #fff4e300 100%),url("../img/bg-items.png");
+  background-color: #FFF4E3;
+  background-size: cover;
+}
+.login-img img{
+  max-width:500px;
+  border-right: 2px solid #FF5900;
+  box-shadow: 0px 0px 34px 4px rgba(0,0,0,0.2) inset;
+  -webkit-box-shadow: 0px 0px 34px 4px rgba(0,0,0,0.2) inset;
+  -moz-box-shadow: 0px 0px 34px 4px rgba(0,0,0,0.2) inset;
+}
+.log-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50px;
+}
+.log-title h5 {
+  margin:0;
+  padding:0;
+  margin-bottom: -5px;
+  color: black;
+  font-size:34px;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-weight: bold;
+}
+.log-title h4{
+  margin:0;
+  padding:0;
+  color: black;
+  font-size:34px;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-weight: bold;
+}
+.log-container{
+  padding:20px;
+}
+.login-container form{
+  padding:20px;
+}
+.formulario-login {
+  border-radius: 20px;
+  overflow: hidden;
+  border:1px solid #FF5900;
+  background-color:#FFF4E3;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.255);
+}
+
+@media all and (max-width: 850px) {
+  .login-img img{
+    display:none;
+    }
 }
