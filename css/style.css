@@ -54,6 +54,7 @@
   letter-spacing: 1px;
   background-color: transparent;
   color: #fff;
+  text-decoration: none;
 }
 .btn-login-small {
   border: 2px solid #FF5900;
@@ -67,6 +68,7 @@
   background-color: transparent;
   letter-spacing: 1px;
   display:none;
+  text-decoration: none;
 }
 .btn-login-small-mod{
   border: 2px solid #FF5900;
@@ -80,6 +82,7 @@
   background-color: transparent;
   letter-spacing: 1px;
   display:none;
+  text-decoration: none;
 }
 .btn-login-large:hover{
   color:#FF5900;
@@ -1687,4 +1690,7 @@
   .login-img img{
     display:none;
     }
+  .login-container{
+    padding-top: 150px;
+  }
 }
