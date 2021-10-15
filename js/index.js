@@ -243,3 +243,22 @@ $(document).ready(function(){
 // AOS ANIMATION INICIALIZATION
 
 AOS.init();
+
+
+// PLANES MODAL ONCLICK
+
+$("#plan-mype").click(function(){
+	$("#txt-plan").val("hola, quisiera adquirir el plan MYPE.")
+});
+$("#plan-crece").click(function(){
+	$("#txt-plan").val("hola, quisiera adquirir el plan CRECE.")
+});
+$("#plan-vuela").click(function(){
+	$("#txt-plan").val("hola, quisiera adquirir el plan VUELA.")
+});
+$("#plan-pro").click(function(){
+	$("#txt-plan").val("hola, quisiera adquirir el plan VUELA PRO.")
+});
+$("#plan-incuba").click(function(){
+	$("#txt-plan").val("hola, quisiera adquirir el plan INCUBA.")
+});

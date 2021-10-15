@@ -1392,6 +1392,28 @@
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
   display: block!important;
 }
+.mensaje{
+  margin-top:10px;
+}
+.mensaje label {
+  margin: 0px;
+  padding-left: 10px;
+  color: #797f85;
+  padding-bottom: 5px;
+}
+#txt-plan{
+  width:530px;
+  display: block;
+  height:40px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: rgb(255, 255, 255);
+  background-clip: padding-box;
+  border: 0px;
+  border-bottom: 2px solid #00000065;
+}
 
 /* NOSOTROS PAGE */
 
